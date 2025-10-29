@@ -1713,6 +1713,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 35844146}
+  maxXY: {x: 6.1, y: 3}
+  minXY: {x: -6.1, y: -3}
 --- !u!1 &1240463446
 GameObject:
   m_ObjectHideFlags: 0
