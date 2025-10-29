@@ -6,17 +6,22 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 5f;
     public Rigidbody2D rigidbody;
+    public Animator animator;
     Vector2 playerMovement;
-    private bool movementDisabled = false;
+    private bool movementOff = false;
 
     void Update()
     {
-        if (!movementDisabled)
+        if (!movementOff)
         {
             playerMovement.x = Input.GetAxisRaw("Horizontal");
             playerMovement.y = Input.GetAxisRaw("Vertical");
             //  Disable diagonal movement.
             if (playerMovement.x != 0) playerMovement.y = 0;
+            //  Apply animation based on player movement.
+            animator.SetFloat("Horizontal", playerMovement.x);
+            animator.SetFloat("Vertical", playerMovement.y);
+            animator.SetFloat("Speed", playerMovement.sqrMagnitude);
         }
     }
 
@@ -25,8 +30,8 @@ public class PlayerController : MonoBehaviour
         rigidbody.MovePosition(rigidbody.position + playerMovement * speed * Time.fixedDeltaTime);
     }
 
-    public void EnableDisableMovement(bool update)
+    public void SetMovementOnOff(bool update)
     {
-        movementDisabled = update;
+        movementOff = update;
     }
 }
