@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: TreeSakuraBottomRight
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -514733007, guid: 8dae4e9cd14faf048adf395334eabf70, type: 3}
+  - {fileID: 698293444, guid: cf9f988d4af8e354d9dfb9b00c4d2e7d, type: 3}
+  - {fileID: -784516064, guid: d9412cff1e52c824ea9625c11d2bf653, type: 3}
+  - {fileID: -784516064, guid: d9412cff1e52c824ea9625c11d2bf653, type: 3}
+  - {fileID: -2056723933, guid: 9ed7414829f41e8418d809d8a7e2cad5, type: 3}
+  - {fileID: -1296873331, guid: 5ed568701f69b9243a8350eae7a2cddd, type: 3}
+  - {fileID: 1610129507, guid: 2db3a1732e85c6f4fb2c65bceca7bb80, type: 3}
+  - {fileID: -2090373104, guid: 8cc7d0ec14afd2d4c9ddf1aac7d73c29, type: 3}
+  m_MinSpeed: 1
+  m_MaxSpeed: 1
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 0
