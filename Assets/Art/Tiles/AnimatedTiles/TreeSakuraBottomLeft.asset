@@ -12,9 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
   m_Name: TreeSakuraBottomLeft
   m_EditorClassIdentifier: 
-  m_AnimatedSprites: []
-  m_MinSpeed: 1
-  m_MaxSpeed: 1
+  m_AnimatedSprites:
+  - {fileID: 1528654430, guid: 8dae4e9cd14faf048adf395334eabf70, type: 3}
+  - {fileID: -729519871, guid: cf9f988d4af8e354d9dfb9b00c4d2e7d, type: 3}
+  - {fileID: -34652398, guid: 66200924bdb5f0d4fbf3981d16aafc8f, type: 3}
+  - {fileID: -4911711, guid: d9412cff1e52c824ea9625c11d2bf653, type: 3}
+  - {fileID: 962099273, guid: 9ed7414829f41e8418d809d8a7e2cad5, type: 3}
+  - {fileID: -1496296985, guid: 5ed568701f69b9243a8350eae7a2cddd, type: 3}
+  - {fileID: -420328522, guid: 2db3a1732e85c6f4fb2c65bceca7bb80, type: 3}
+  - {fileID: -55893441, guid: 8cc7d0ec14afd2d4c9ddf1aac7d73c29, type: 3}
+  m_MinSpeed: 4
+  m_MaxSpeed: 4
   m_AnimationStartTime: 0
   m_AnimationStartFrame: 0
   m_TileColliderType: 0
