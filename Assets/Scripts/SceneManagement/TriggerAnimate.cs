@@ -1,8 +1,7 @@
 using System;
 using UnityEngine;
 
-public class InteractTrigger : MonoBehaviour
-{
+public class TriggerAnimate : MonoBehaviour {
     [HideInInspector] public bool triggerOn = false;
     [HideInInspector] public bool interacted = false;
     public bool animateOnce;
@@ -28,7 +27,7 @@ public class InteractTrigger : MonoBehaviour
         if (triggerOn && Input.GetKeyDown(KeyCode.E)){
             if (!animateOnce){
                 TriggerAnimation();
-                //  Implement.
+                //  TODO: Implement animation repeat on interact.
             }
             if (animateOnce && !interacted){
                 TriggerAnimation();
